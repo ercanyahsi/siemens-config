@@ -14,3 +14,7 @@ spring: # <---NEW SECTION
   cloud:
     services:
       registrationMethod: direct
+spring:
+  sleuth:
+    sampler:
+      percentage: 1.0
